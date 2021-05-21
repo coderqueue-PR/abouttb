@@ -388,8 +388,7 @@ header .navbar .tryfreebtn{
 
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* tokbird about section */
 *,
 *::before,
 *::after{
@@ -399,7 +398,6 @@ header .navbar .tryfreebtn{
 }
 
 html{
-    font-family: 'Inter', sans-serif;
     font-size: 10px;
 }
 
@@ -486,6 +484,9 @@ img{
     margin-top: 6rem;
     margin-left: 2rem;
 }
+
+/* media queries of tokbird about section */
+
 
 @media screen and (max-width: 1068px){
     .blog-post{
@@ -716,6 +717,9 @@ img{
     width: 100%;
   }
   
+/* media queries sliding cards */
+
+
   @media screen and (max-width: 400px){
     .content .title {
       font-size: 12px;
@@ -757,6 +761,7 @@ img{
 }
 .slidingCards {
   height: 70vh;
+  width: 45rem;
 }
 
 .blog-card{
